@@ -12,7 +12,7 @@ typedef struct msgbuf{
     char mtext[MSGSZ];
 } message_buf;
 
-main(){
+int main(){
     int msqid;
     int msgflg = IPC_CREAT | 0666;
     key_t key;
